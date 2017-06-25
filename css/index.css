@@ -1,0 +1,74 @@
+h1, p, a, img, * 
+	{
+    margin: 0;
+    padding: 0;
+	}
+	a
+	{
+		color:#fff;
+		font-size: 100%;
+		text-decoration: none;
+	}
+	img 
+    {
+    	border: medium none;
+    	vertical-align: middle;
+	}
+	* 
+	{
+    	margin: 0;
+    	padding-top: 0;
+    	list-style: none;
+
+	}
+	body 
+    {
+		font-size: 100%;
+		margin: 0px;
+	}
+ /*顺序抽奖*/
+	.a,.b{
+		float:left;
+		height: 420px;
+		width:320px;
+		margin:40px;
+	}
+	.a::before, .a::after,.b::before, .b::after
+	{
+    	clear: both;
+    	content: "";
+    	display: block;
+	}
+	#order
+	{	
+		border:1px  solid;
+		height: 320px;
+		width:320px;
+		
+	}
+	#tex,#tec{
+		font-size:14px;
+		margin-left: 100px;
+		margin-bottom: 10px;
+	}
+	#button1,#button2{
+		padding:5px 50px;
+		margin-left: 100px;
+	}
+	#disorder ul li,#order ul li
+	{
+		background-color: #eee;
+		float: left;
+	    height: 100px;
+	    margin: 3px;
+	    padding: 0;
+	    width: 100px;
+	    border-radius: 0.5em;
+	    text-align: center;
+	    line-height: 80px;
+	}
+	/*无序抽奖*/
+	#disorder,#diagonal{
+		border:1px  solid;
+		height: 320px;
+	}
